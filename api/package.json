@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Outmood api",
+  "engines": {
+    "node": "15.x"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4rt/outmood.git"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "author": "Artjom",
+  "license": "ISC"
+}
